@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Fresca');
+* {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    color: black;
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', Arial;
+    background-image: url("/files/paper_fibers.png");
+    color: #333;
+}
+
+button>a {
+    color: #fff;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+
+footer>div>p {
+    margin-bottom: 0;
+}
+
+footer>div {
+    margin-top: 25px;
+    margin-bottom: 0;
+    animation: fadeInRight 8s ease-in-out;
+}
+
+footer>div>div>a {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control {
+    background-color: #fcfcfc;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.mission {
+    /*--border-style: solid;
+  text-align: center;
+  /*border-width: 10px;*/
+    padding: 10px;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #00b7c4;
+    text-align: left;
+    min-height: 0;
+}
+
+.nav>li {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 4px;
+    animation: fadeInDown 1s ease-in;
+}
+
+.nav>li>a {
+    color: black !important;
+}
+
+.nav>li>a:hover {
+    color: #fff !important;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    animation: shake .5s ease-in-out;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: left;
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+.row.content {
+    height: 820px;
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    padding-top: 20px;
+    background-image: url("/files/paper_fibers.png");
+    height: 100%;
+}
+
+.dropdown {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    top: 5px;
+    right: 10px;
+}
+
+.dropdown-menu {
+    z-index: 1000;
+    background-color: #fff;
+    min-width: 160px;
+    margin-left: -100px;
+}
+
+.dropdown-menu>a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #fff;
+}
+
+.dropdown-menu>a:active {
+    background-color: #2bc435;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .btn-secondary {
+    background-color: #2bc435;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 0px 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.indexcol {
+  border-style: solid;
+  border-color: #008000;
+  border-width: 3px;
+  border-radius: 5px;
+}
+
+@media (max-width: 901px) {
+    #myNavbar>ul {
+        display: none;
+    }
+    .dropdown {
+        display: inline-block;
+        background-color: #fff;
+    }
+    nav.navbar {
+        background-color: transparent;
+        height: 0px;
+    }
+}
+
+@media (max-width: 568px) {
+    #myNavbar>ul {
+        display: none;
+    }
+    .dropdown {
+        display: inline-block;
+        background-color: #fff;
+    }
+    #myCarousel {
+        width: 105%;
+        margin-top: 100px;
+        height: 250px !important;
+    }
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: 100%;
+    }
+    nav.navbar {
+        background-color: transparent;
+        height: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #myNavbar>ul {
+        display: none;
+    }
+    .dropdown {
+        display: inline-block;
+        background-color: #fff;
+    }
+    #myCarousel {
+        width: 105%;
+        margin-top: 100px;
+        height: 250px !important;
+    }
+    nav.navbar {
+        background-color: transparent;
+        height: 0px;
+    }
+}
